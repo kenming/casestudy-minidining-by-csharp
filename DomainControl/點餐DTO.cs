@@ -9,7 +9,7 @@ namespace minidining.control.dto
     {
         public string id { get; set; }      // 菜單編號
         public string name { get; set; }    // 菜單名稱
-        public string price { get; set; }   // 售價
+        public int price { get; set; }      // 售價
     }
 
     // 點餐 (表頭)
